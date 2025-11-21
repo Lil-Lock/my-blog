@@ -15,7 +15,7 @@
       <guid>/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;我的第一篇博客&#34;&gt;我的第一篇博客&lt;/h2&gt;
 &lt;p&gt;各位好！昨晚我突然萌生一个想法——给自己搭建一个博客，并且部署到公网上。于是我找到了Vercel。&lt;/p&gt;
-&lt;p&gt;Vercel可以很方便地部署我的网页，我也使用Hugo框架和PaperMod的主题，试图最最简的框架下建立一个博客（当然我对主题的代码做了一些更改，但不大）。具体的方法是，我用Hugo搭建一个博客，然后把这个网页git到Github上，使用Vercel去import这个repo并部署。我每次提交新的帖子到Github时，Vercel就会自动检测并且更新网页。&lt;/p&gt;
+&lt;p&gt;Vercel可以很方便地部署我的网页，我也使用Hugo框架和PaperMod的主题，试图在最简的框架下建立一个博客（我对主题的代码做了一些更改，但不大）。具体的方法是，我用Hugo搭建一个博客，然后把这个网页git到Github上，使用Vercel去import这个repo并部署。我每次提交新的帖子到Github时，Vercel就会自动检测并且更新网页。&lt;/p&gt;
 &lt;p&gt;以下是我写帖子的步骤，这是给我自己看的：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;第一步，使用 &lt;code&gt;hugo new posts/xxx.md&lt;/code&gt; 创建一个新的帖子，并且填写内容；&lt;/li&gt;
