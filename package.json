@@ -1,0 +1,8 @@
+{
+  "name": "your-hugo-site",
+  "version": "1.0.0",
+  "description": "Hugo site with theme dependencies",
+  "scripts": {
+    "build": "echo 'Build handled by Vercel'"
+  }
+}
