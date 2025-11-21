@@ -1,3 +1,22 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "https://example.com"
+languageCode = "en"
+title = "Chingyu's Blog"
+theme = "charaka-hugo-theme"
+copyright = "&copy; <a href=\"https://github.com/natarajmb\">Nataraj Basappa</a> 2025"
+disqusShortname = ""
+relativeURLs = true
+preserveTaxonomyNames = true
+
+[services.googleAnalytics]
+  ID = ""
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = false
+  tabWidth = 4
+  noClasses = true
+  style = "vulcan" 
